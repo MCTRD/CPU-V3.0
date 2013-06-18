@@ -5,6 +5,9 @@ class HomePagesController < ApplicationController
   def home2
   end
 
+  def home3
+  end
+
   def about
   	
   end
