@@ -1,5 +1,6 @@
 CPUV30::Application.routes.draw do
   get "home_pages/home"
+  get "home_pages/home2"
   get "home_pages/about"
 
   root to: 'home_pages#home'
