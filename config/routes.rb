@@ -1,6 +1,8 @@
 CPUV30::Application.routes.draw do
   get "home_pages/home"
 
+  root to: 'home_pages#home'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
